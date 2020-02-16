@@ -3,7 +3,7 @@
 
 <?php
 $title = 'Welcome to ECom';
-require_once('head.php')
+require_once 'head.php'
 ?>
 
 <body class="text-center">
@@ -55,7 +55,7 @@ require_once('head.php')
   </div>
 
   <?php
-  require_once('script.php')
+  require_once 'script.php'
   ?>
 </body>
 
