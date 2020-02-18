@@ -7,15 +7,11 @@ require_once './common/head.php'
 ?>
 
 <body class="text-center">
+  <?php
+  require './common/nav.php'
+  ?>
+
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto">
-      <div class="inner">
-        <h3 class="masthead-brand">Items for Sale</h3>
-        <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link active" href="index.php">Home</a>
-        </nav>
-      </div>
-    </header>
 
     <main role="main" class="inner cover">
       <div class="card text-center">
@@ -52,6 +48,7 @@ require_once './common/head.php'
         <p>Theme for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://bootswatch.com/">Bootswatch</a>.</p>
       </div>
     </footer>
+
   </div>
 
   <?php
