@@ -3,8 +3,10 @@
 
 <?php
 $title = 'Welcome to ECom';
-require_once 'head.php'
+require_once 'common/head.php';
 
+require ('utils/json-utils.php');
+$bikes = readJSON('/data/items/'.$_GET[category])
 ?>
 
 <body class="text-center">
@@ -108,6 +110,10 @@ require_once 'head.php'
 			</div>
     </main>
 
+	
+	
+	
+
     <footer class="mastfoot mt-auto">
       <div class="inner">
         <p>Theme for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://bootswatch.com/">Bootswatch</a>.</p>
@@ -116,7 +122,7 @@ require_once 'head.php'
   </div>
 
   <?php
-  require_once 'script.php'
+  require_once 'common/script.php'
   ?>
 </body>
 
