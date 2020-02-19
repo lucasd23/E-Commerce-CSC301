@@ -5,8 +5,8 @@
 $title = 'Welcome to ECom';
 require_once 'common/head.php';
 
-require('utils/json-utils.php');
-$bikes = readJSON('/data/items/' . $_GET['category'])
+require('./utils/json-utils.php');
+$bikes = readJSON("/data/items/".$_GET['category'])
 ?>
 
 <body class="text-center">
@@ -24,9 +24,9 @@ $bikes = readJSON('/data/items/' . $_GET['category'])
 							<div class="card" style="width: 18rem;">
 								<img src="..." class="card-img-top" alt="...">
 								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									<a href="#" class="btn btn-primary">Go somewhere</a>
+									<h5 class="card-title">Name of Bike</h5>
+									<p class="card-text">Specs about the bike</p>
+									<a href="#" class="btn btn-primary">Details</a>
 								</div>
 							</div>
 						</td>
